@@ -8,7 +8,7 @@ while Taken < 3:
     date_no = int(date_no)
     Taken = Taken+1
     if date_tr == date_no:
-        print("Угадал!",ru_local.SAVE)
+        print(ru_local.MEY,ru_local.SAVE)
     if date_tr != date_no:
         print(ru_local.NAME_THREE)
     if date_tr == date_no:
